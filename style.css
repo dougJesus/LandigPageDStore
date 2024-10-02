@@ -10,11 +10,11 @@ body{
     flex-grow: 0;
 }
 .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
-    justify-content: space-evenly;
-    background-color: #98c5e9;
+    justify-content:flex-end;
+    background-color: #ee4d2d;
 }
 .nav-expand-lg{
-    background-color: #98c5e9;
+    background-color: #ee4d2d;
 }
 .navbar{
     --bs-navbar-brand-margin-end: 0.4rem;
@@ -198,7 +198,7 @@ p {
         justify-content: space-evenly;
         margin: 0px;
         padding: 0px;
-        background-color: #98c5e9;
+        background-color: #ee4d2d;
     }
     #logo{
         display: flex;
@@ -225,7 +225,7 @@ p {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: #98c5e9;
+        background-color: #ee4d2d;
     }
     .ListOne ul{
         display: flex;
