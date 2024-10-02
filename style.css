@@ -1,0 +1,296 @@
+body{
+    background-color: #fcfcfc;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: uppercase;
+    color: #001838;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    justify-content: space-evenly;
+    background-color: #98c5e9;
+}
+.nav-expand-lg{
+    background-color: #98c5e9;
+}
+.navbar{
+    --bs-navbar-brand-margin-end: 0.4rem;
+    --bs-navbar-padding-y:0;
+}
+.text-decora{
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 25px;
+    color: white;
+}
+.nav-link:hover{
+    color: #001838;
+    text-shadow: 5px 2px 4px #001838 ;
+}
+.text-meio:hover{
+    transform: translateY(-10px);
+}
+.row{
+    padding-top: 2rem;
+    padding-bottom:2rem;
+    text-align: center;
+}
+
+.navbar-toggler {
+    width: 6rem;
+    height: 4rem;
+}
+.col-md-6{
+    text-align: center;
+    
+    margin-top: 0;
+}
+.container-fluid{
+    background-color:#98c5e9;
+}
+.text-center {
+    padding-bottom: 0.5rem;
+}   
+.fs-2 {
+    font-size: 2.5rem!important;
+}
+p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.text-primary{
+    color: #98c5e9 !important; 
+}
+.text-primary:hover{
+    text-shadow: 5px 2px 4px #001838 ;
+}
+#logoOverflow:hover{
+    animation: bounce 2s infinite;
+}
+.d-flex {
+    display: flex!important;
+    justify-content: space-evenly;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+}
+.text-whit{
+    text-decoration: none;
+    color: #001838;
+}
+.card{
+    border: 0;
+}
+.footer img{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.text-end:hover{
+    color: #001838;
+    text-shadow: 5px 2px 4px #001838 ;
+}
+.row a{
+    text-decoration: none;
+}
+.fot{
+    display: flex;
+    justify-content:space-evenly;
+    color: #ffffff;
+    font-size: 18px;
+}
+.fot:hover{
+    color: #001838;
+    text-shadow: 5px 2px 4px #001838 ;
+}
+ .card {
+        perspective: 1000px;
+    }
+    
+    .card-inner {
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        height: 450px;
+    }
+    
+    .card:hover .card-inner {
+        transform: rotateY(180deg);
+    }
+    
+    .card-front, .card-back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    
+    .card-front {
+        background-color: white;
+        border:3px #98c5e9 solid;
+        border-radius: 1rem;
+    }
+    
+    .card-back {
+        transform: rotateY(180deg);
+        background-color: #98c5e9;
+        border-radius:1rem;
+    }
+    
+    .card img {
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+    
+    .card h5 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        font-size: 16px;
+        color: #001838;
+        margin-bottom: 20px;
+    }
+    
+    .card-back a {
+        display: block;
+        justify-content: space-around;
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .card-back a:hover {
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+    .card h5{
+        font-size: 12px;
+    }
+    .rodape{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
+        padding: 0px;
+        background-color: #98c5e9;
+    }
+    #logo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #resto{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #resto h5{
+        font-size: 15px;
+        color: white;
+    }
+    #resto h5:hover{
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+    .DpsRodape{
+        margin: 0px;
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #98c5e9;
+    }
+    .ListOne ul{
+        display: flex;
+        justify-content: center; 
+    }
+    .ListOne li{
+        color: white;
+        font-size: 12px;
+        padding: 0.2rem;
+        list-style: none;
+        margin: 0px;
+    }
+    .ListOne li:hover{
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+    .ListOne a{
+        text-decoration: none;
+    }
+    #finnaly{
+        margin: 0px;
+        padding: 0px;
+    }
+    #finnaly h6{
+        color: white;
+        font-size: 13px;
+        padding-bottom:1.1rem;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+    #finnaly h6:hover{
+        color: #001838;
+        text-shadow: 5px 2px 4px #001838;
+        font-weight: bold; 
+    }
+    #finnaly a{
+        text-decoration: none;
+    }
+
+
+    
+        .horizontal-line {
+            padding-bottom: 0px;
+            margin: 0px;
+            background-color: #98c5e9;
+            border-bottom: 1px solid #ffffff;
+        }
+        .btn-primary{
+            background-color: #98c5e9;
+            text-shadow: 5px 2px 4px #001838;
+        }
+        
+        .modal-dialog {
+            max-width: 90vw;
+            margin: 1.75rem auto;
+          }
+          .modal-body img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+          }
+          .mt-5 {
+            margin-top: 1rem!important;
+        }
+
+          
