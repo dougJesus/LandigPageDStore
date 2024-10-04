@@ -9,15 +9,27 @@ body{
 .navbar-collapse{
     flex-grow: 0;
 }
+
 .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
-    justify-content:flex-end;
+    justify-content:center;
     background-color: #ee4d2d;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.socialMidia{
+    
+    background-color: #ee4d2d;
+}
+
+.navbar-brand-socialMidia{
+    padding: 0.5rem;
 }
 .nav-expand-lg{
     background-color: #ee4d2d;
 }
 .navbar{
-    --bs-navbar-brand-margin-end: 0.4rem;
+    --bs-navbar-brand-margin-end: 0rem;
     --bs-navbar-padding-y:0;
 }
 .text-decora{
@@ -49,9 +61,7 @@ body{
     
     margin-top: 0;
 }
-.container-fluid{
-    background-color:#98c5e9;
-}
+
 .text-center {
     padding-bottom: 0.5rem;
 }   
