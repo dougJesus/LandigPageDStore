@@ -16,7 +16,12 @@ body{
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
-
+.navbar-brand{
+    color: black;
+}
+.nav-link{
+    color: black !important; 
+}
 .socialMidia{
     
     background-color: #ee4d2d;
